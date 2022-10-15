@@ -12,7 +12,7 @@
     "test:watch": "jest --watch"
   },
   "lint-staged": {
-    "src/**/*": "yarn lint --fix"
+    "src/**/*": ["yarn lint --fix", "yarn test --bail"]
   },
   "dependencies": {
     "next": "12.3.1",
