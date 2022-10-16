@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
 
-    const teste = 'nada'
+    const teste2 = 'nada'
 
     try {
       ctx.renderPage = () =>
