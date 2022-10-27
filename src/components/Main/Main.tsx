@@ -11,6 +11,7 @@ const Main = ({
         alt="Imagem de um átomo e react avançado escrito ao lado."
       />
       <Style.Title>{title}</Style.Title>
+
       <Style.Description>{description}</Style.Description>
       <Style.Illustration
         src="/img/hero-illustration.svg"
